@@ -3,7 +3,7 @@ import './placeOrder.css'
 import Header from '../../header'
 
 const url = "http://zomnodeapi.herokuapp.com/menuItem";
-const purl = "http://zomnodeapi.herokuapp.com/placeOrder";
+const purl = "http://localhost:9700/placeOrder";
 
 class PlaceOrder extends Component {
     constructor(props){
