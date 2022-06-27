@@ -3,7 +3,7 @@ import axios from 'axios';
 import OrderDisplay from './orderDisplay';
 import Header from '../../header'
 
-const url = "https://zomnodeapi.herokuapp.com/viewOrder"
+const url = "http://localhost:9700/viewOrder"
 const updateUrl = "http://localhost:9700/updateOrder"
 
 class ViewOrder extends Component {
