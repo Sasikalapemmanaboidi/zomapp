@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import './placeOrder.css'
 import Header from '../../header'
 
-const url = "http://zomnodeapi.herokuapp.com/menuItem";
+const url = "https://zomnodeapi.herokuapp.com/menuItem";
 const purl = "http://localhost:9700/placeOrder";
 
 class PlaceOrder extends Component {
